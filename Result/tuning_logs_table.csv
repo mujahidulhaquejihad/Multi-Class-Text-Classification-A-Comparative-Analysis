@@ -1,0 +1,133 @@
+preprocessing,representation,model,config,val_macro_f1
+none,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 0.5, 'max_iter': 400, 'solver': 'lbfgs'}",0.8954301388762663
+none,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 1.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.8990441498470874
+none,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 2.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9006845440182584
+none,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 0.5, 'max_iter': 400, 'solver': 'lbfgs'}",0.8852222050715207
+none,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 1.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.8905664863840006
+none,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 2.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.891639985187892
+none,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 0.5, 'max_iter': 400, 'solver': 'lbfgs'}",0.8996267474200355
+none,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 1.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9057508923865529
+none,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 2.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9099038260153101
+none,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 0.5, 'max_iter': 400, 'solver': 'lbfgs'}",0.8926732814519448
+none,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 1.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.8985184117721225
+none,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 2.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9016617234434796
+none,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 256, 'dense2': 128, 'drop': 0.35, 'epochs': 8, 'lr': 0.001}",0.9198659319019907
+none,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 256, 'dense2': 128, 'drop': 0.5, 'epochs': 8, 'lr': 0.001}",0.9183999045613986
+none,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 256, 'dense2': 192, 'drop': 0.35, 'epochs': 8, 'lr': 0.001}",0.9116980549005075
+none,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 256, 'dense2': 192, 'drop': 0.5, 'epochs': 8, 'lr': 0.001}",0.9106866494970929
+none,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 384, 'dense2': 128, 'drop': 0.35, 'epochs': 8, 'lr': 0.001}",0.910290603948354
+none,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 384, 'dense2': 128, 'drop': 0.5, 'epochs': 8, 'lr': 0.001}",0.9170134770830596
+none,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 384, 'dense2': 192, 'drop': 0.35, 'epochs': 8, 'lr': 0.001}",0.9085791193751707
+none,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 384, 'dense2': 192, 'drop': 0.5, 'epochs': 8, 'lr': 0.001}",0.9106790558481298
+extreme,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 0.5, 'max_iter': 400, 'solver': 'lbfgs'}",0.898038139365126
+extreme,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 1.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9003747929749075
+extreme,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 2.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9019295640757341
+extreme,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 0.5, 'max_iter': 400, 'solver': 'lbfgs'}",0.8965976038820045
+extreme,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 1.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9011244351975362
+extreme,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 2.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.903789912625335
+extreme,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 0.5, 'max_iter': 400, 'solver': 'lbfgs'}",0.8995564780420352
+extreme,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 1.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9028329544866576
+extreme,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 2.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9052788050286987
+extreme,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 0.5, 'max_iter': 400, 'solver': 'lbfgs'}",0.900847343764904
+extreme,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 1.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9053143245364461
+extreme,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 2.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9077225664434392
+extreme,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 256, 'dense2': 128, 'drop': 0.35, 'epochs': 8, 'lr': 0.001}",0.9149043701911849
+extreme,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 256, 'dense2': 128, 'drop': 0.5, 'epochs': 8, 'lr': 0.001}",0.9168315707473562
+extreme,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 256, 'dense2': 192, 'drop': 0.35, 'epochs': 8, 'lr': 0.001}",0.9052481164031335
+extreme,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 256, 'dense2': 192, 'drop': 0.5, 'epochs': 8, 'lr': 0.001}",0.9076125213586572
+extreme,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 384, 'dense2': 128, 'drop': 0.35, 'epochs': 8, 'lr': 0.001}",0.9072529377683625
+extreme,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 384, 'dense2': 128, 'drop': 0.5, 'epochs': 8, 'lr': 0.001}",0.9085718372217919
+extreme,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 384, 'dense2': 192, 'drop': 0.35, 'epochs': 8, 'lr': 0.001}",0.906876686151734
+extreme,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 384, 'dense2': 192, 'drop': 0.5, 'epochs': 8, 'lr': 0.001}",0.9076780101899095
+optimum,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 0.5, 'max_iter': 400, 'solver': 'lbfgs'}",0.8969071948700627
+optimum,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 1.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.8995881480820764
+optimum,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 2.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9014016714813688
+optimum,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 0.5, 'max_iter': 400, 'solver': 'lbfgs'}",0.8943292292601964
+optimum,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 1.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.900091296732382
+optimum,TF-IDF,LogisticRegression,"{'max_features': 5000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 2.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9011407272303676
+optimum,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 0.5, 'max_iter': 400, 'solver': 'lbfgs'}",0.8994759506927477
+optimum,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 1.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9033666031246834
+optimum,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 1), 'C': 2.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9063326675614729
+optimum,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 0.5, 'max_iter': 400, 'solver': 'lbfgs'}",0.8995554523605795
+optimum,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 1.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9055248432166701
+optimum,TF-IDF,LogisticRegression,"{'max_features': 8000, 'min_df': 2, 'ngram_range': (1, 2), 'C': 2.0, 'max_iter': 400, 'solver': 'lbfgs'}",0.9086977941580184
+optimum,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 256, 'dense2': 128, 'drop': 0.35, 'epochs': 8, 'lr': 0.001}",0.914579446914909
+optimum,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 256, 'dense2': 128, 'drop': 0.5, 'epochs': 8, 'lr': 0.001}",0.9162673803975949
+optimum,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 256, 'dense2': 192, 'drop': 0.35, 'epochs': 8, 'lr': 0.001}",0.9111501992253972
+optimum,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 256, 'dense2': 192, 'drop': 0.5, 'epochs': 8, 'lr': 0.001}",0.9114829852396155
+optimum,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 384, 'dense2': 128, 'drop': 0.35, 'epochs': 8, 'lr': 0.001}",0.9117763688238898
+optimum,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 384, 'dense2': 128, 'drop': 0.5, 'epochs': 8, 'lr': 0.001}",0.9174297406018945
+optimum,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 384, 'dense2': 192, 'drop': 0.35, 'epochs': 8, 'lr': 0.001}",0.9098177023298821
+optimum,TF-IDF,DeepNN,"{'batch_size': 64, 'dense1': 384, 'dense2': 192, 'drop': 0.5, 'epochs': 8, 'lr': 0.001}",0.9169268925866638
+none,Skip-gram,SimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.1899093608101375
+none,Skip-gram,SimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.40678701764941383
+none,Skip-gram,SimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.3890679343341632
+none,Skip-gram,SimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.3942424117600394
+none,Skip-gram,GRU,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.895322414608803
+none,Skip-gram,GRU,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8394288305743991
+none,Skip-gram,GRU,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.8309465848926827
+none,Skip-gram,GRU,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8385373211986311
+none,Skip-gram,LSTM,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.871194494672244
+none,Skip-gram,LSTM,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8309305613598734
+none,Skip-gram,LSTM,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.8354729242896658
+none,Skip-gram,LSTM,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8242534191334882
+none,Skip-gram,BiSimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.7633898019878814
+none,Skip-gram,BiSimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.6100950998441947
+none,Skip-gram,BiSimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.497505154027216
+none,Skip-gram,BiSimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8202218706138847
+none,Skip-gram,BiGRU,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.8991331500117624
+none,Skip-gram,BiGRU,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8519659966298669
+none,Skip-gram,BiGRU,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.8498002247500336
+none,Skip-gram,BiGRU,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.85453812863427
+none,Skip-gram,BiLSTM,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.8916911080814243
+none,Skip-gram,BiLSTM,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8439851384996772
+none,Skip-gram,BiLSTM,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.8484848055443623
+none,Skip-gram,BiLSTM,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8542582317868659
+extreme,Skip-gram,SimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.6160183704070535
+extreme,Skip-gram,SimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.14355983500288944
+extreme,Skip-gram,SimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.6248172689317701
+extreme,Skip-gram,SimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.1433794671907682
+extreme,Skip-gram,GRU,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.9047403624571325
+extreme,Skip-gram,GRU,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8673467497370589
+extreme,Skip-gram,GRU,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.8530813921167235
+extreme,Skip-gram,GRU,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8768618642569664
+extreme,Skip-gram,LSTM,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.896010482691437
+extreme,Skip-gram,LSTM,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.868912951235904
+extreme,Skip-gram,LSTM,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.6331374194920489
+extreme,Skip-gram,LSTM,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.715601339574337
+extreme,Skip-gram,BiSimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.8680062642033911
+extreme,Skip-gram,BiSimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.866023340907957
+extreme,Skip-gram,BiSimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.8541747335228265
+extreme,Skip-gram,BiSimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8766616094451609
+extreme,Skip-gram,BiGRU,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.9041167220903805
+extreme,Skip-gram,BiGRU,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8808114097819331
+extreme,Skip-gram,BiGRU,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.8795409890833474
+extreme,Skip-gram,BiGRU,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8830236301332092
+extreme,Skip-gram,BiLSTM,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.9064062750469195
+extreme,Skip-gram,BiLSTM,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8762925526877925
+extreme,Skip-gram,BiLSTM,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.8765198532178062
+extreme,Skip-gram,BiLSTM,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8765109988123849
+optimum,Skip-gram,SimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.5500086756970771
+optimum,Skip-gram,SimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.3343706538914884
+optimum,Skip-gram,SimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.14344656493304603
+optimum,Skip-gram,SimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.38281821888009976
+optimum,Skip-gram,GRU,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.9069828756018653
+optimum,Skip-gram,GRU,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8768426374624771
+optimum,Skip-gram,GRU,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.8559967368109433
+optimum,Skip-gram,GRU,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8795673970115078
+optimum,Skip-gram,LSTM,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.9002723942636597
+optimum,Skip-gram,LSTM,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8307244610460484
+optimum,Skip-gram,LSTM,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.8476949574104226
+optimum,Skip-gram,LSTM,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.6749401080247662
+optimum,Skip-gram,BiSimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.8532336362389275
+optimum,Skip-gram,BiSimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.851105422398642
+optimum,Skip-gram,BiSimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.8532485126987186
+optimum,Skip-gram,BiSimpleRNN,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8721401450778193
+optimum,Skip-gram,BiGRU,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.9100050265765212
+optimum,Skip-gram,BiGRU,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8887821903735708
+optimum,Skip-gram,BiGRU,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.884285375385359
+optimum,Skip-gram,BiGRU,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8889511480286876
+optimum,Skip-gram,BiLSTM,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.9106519362924249
+optimum,Skip-gram,BiLSTM,"{'batch_size': 64, 'dropout_rate': 0.4, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8866276995099027
+optimum,Skip-gram,BiLSTM,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 64}",0.8877932202539467
+optimum,Skip-gram,BiLSTM,"{'batch_size': 64, 'dropout_rate': 0.5, 'epochs': 6, 'lr': 0.001, 'units': 96}",0.8913022629584662
